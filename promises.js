@@ -17,7 +17,6 @@ createEmployee()
     console.log(error.message);
 })
 
-
 function createEmployee(){
     return new Promise((resolve, reject)=>{
         if(!validateEmployee(employee)){
